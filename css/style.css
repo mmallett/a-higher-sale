@@ -81,7 +81,8 @@ Panel 1
 ********************/
 #panel1 {
 	margin: 0 auto;
-	background: #09C/* url(../images/panel1.jpg)no-repeat*/;
+	background: /*#09C*/ url(../images/mountains.jpg)no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 40%;
 }
@@ -156,12 +157,15 @@ Panel 2
 }
 
 #leftColumn p{
-	padding-right: 60px;	
+	padding-right: 60px;
+	font-size: 1em;
+	line-height: 2em;
+	padding-bottom: 3em;
 }
 
 #leftColumn img{
 	float: left;
-	padding-right: 10%;	
+	padding-right: 5%;	
 }
 
 #panel2 p{
@@ -172,7 +176,7 @@ Panel 2
 #rightColumn {
 	float: right;
 	margin-right: 20%;
-	margin-top: 10%;
+	margin-top: 15%;
 	width: 23%;
 }
 	
