@@ -141,7 +141,7 @@ Panel 2
 	width: 100%;
 }
 
-#panel2 #rule img {
+#panel2 #plus img {
 	height: 100%;
 	width: 100%;
 	float: left;
@@ -150,10 +150,11 @@ Panel 2
 
 #leftColumn {
 	float: left;
-	margin-left: 21.428571428571%;
+	margin-left: 20%;
 	margin-top: 07.333333333333%;
 	margin-bottom: 7%;
 	width: 30%;
+	border-right: solid #ccc 4px;
 }
 
 #leftColumn p{
@@ -180,3 +181,6 @@ Panel 2
 	width: 23%;
 }
 	
+#rule {
+
+}
