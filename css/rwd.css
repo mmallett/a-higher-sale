@@ -7,12 +7,31 @@
 }
 
 @media (max-width: 880px) {
+	#panel1 p{
+		font-size: .75em;	
+		line-height: 2;
+	}
+	
+	#panel1 img {
+		width: 80%;	
+	}
+	
+	#panel1 h2 {
+		font-size: 1em;	
+		line-height: 2;
+	}
+	
+	#panOneText {
+		margin-right: 10%;
+		margin-left: 10%;	
+	}
+	
 	#leftColumn {
 		margin: 0 auto;
 		float: none;
 		border-right: none;	
 		text-align: center;
-		width: 30%;
+		width: 70%;
 		padding-right: none;
 		padding-top: 5%;
 	}
@@ -29,6 +48,40 @@
 	
 	#rightColumn {
 		margin: 0 auto;
-		float: none;	
+		float: none;
+		width: 30%;	
+		margin-bottom: 5%;
 	}
+	
+	.form {
+		width: 60%;	
+		margin-bottom: 2%;
+	}
+	
+	#boxText {
+		width: 70%;	
+		padding: 2%;
+	}
+	
+	#boxText p{
+		font-size: 1em;
+		line-height: 1;	
+	}
+	
+}
+
+@media (max-width: 580px) {
+	#rightColumn {
+		width: 50%;	
+		padding-bottom: 5%;
+	}
+	
+	#navButton1 {
+		display: none;	
+	}
+	
+	#navButton2 {
+		display: none;	
+	}
+	
 }
