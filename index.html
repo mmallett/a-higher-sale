@@ -2,6 +2,7 @@
 <html>
 <head>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/rwd.css" rel="stylesheet" type="text/css" media="screen" />
 <meta charset="UTF-8">
 <title>A Higher Sale</title>
 </head>
@@ -17,9 +18,9 @@
             <p>Salesmanship is not about tired gimmicks, cliches or manipulation. First and foremost, it is a matter of inspiration.</p>
         </div>
         
-        <!--<div id="spacer"></div>-->
+        
     </div><!-- End Panel 1 -->
-    <div id="navButton1"><a href="#panel2"><img src="images/navButton.png"></a></div>
+    <div class="button" id="navButton1"><a href="#panel2"><img src="images/navButton.png"></a></div>
     <div id="panel2" class="full-page-panel">
     	<div id="rule">
     	<div id="leftColumn">
@@ -33,10 +34,21 @@
         </div>
     </div><!-- End Panel 2 -->
     
-    <div id="navButton2"><a href="#panel3"><img src="images/navButton.png"></a></div>
+    <div class="button" id="navButton2"><a href="#panel3"><img src="images/navButton.png"></a></div>
     
     <div id="panel3" class="full-page-panel">
-    	
+    	<div id="spacer"></div>
+        <div id="boxText">
+        	<h2>tell us a little about yourself to get started:</h2>
+            <p>(we won’t share your information)</p>
+        </div>
+        
+        <div class="form">
+            <input type="name" placeholder="name"><br>
+            <input type="email" placeholder="email"><br>
+            <input type="phone" placeholder="phone"><br>
+            <div style="margin-left: auto; margin-right: auto; width: 160px"><button id="signup">SIGN UP</button></div>
+        </div>
     </div>
  <!-- End Panels -->   
  
@@ -44,6 +56,7 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/style.js"></script>
+  <script src="js/Placeholders.js"></script>
   <!-- <script src="js/submitform.js"></script> -->
 </body>
 </html>
