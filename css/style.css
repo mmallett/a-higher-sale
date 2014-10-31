@@ -80,7 +80,7 @@ Panel 1
 ********************/
 #panel1 {
 	margin: 0 auto;
-	background: /*#09C*/ url(../images/mountains.jpg)no-repeat;
+	background: /*#09C*/ url(../images/header.jpg)no-repeat;
 	background-size: cover;
 	padding-bottom: 5%
 	/*width: 100%;*/
@@ -185,7 +185,7 @@ Panel 3
 ********************/
 
 #panel3 {
-	background: url(../images/coast.jpg)no-repeat;
+	background: url(../images/form1.jpg)no-repeat;
 	background-size: cover;
 	clear: both;
 	height: 611px;
