@@ -44,7 +44,7 @@ function setSpacerDiv1(){
 	// 32
 	// 149
 	// 140
-	var contentHeight = 539;
+	var contentHeight = 455;
 
 	var emptySpace = $(window).height() - contentHeight;
 
@@ -52,7 +52,7 @@ function setSpacerDiv1(){
 }
 
 function setSpacerDiv2(){
-	var contentHeight = 549;
+	var contentHeight = 640;
 
 	var emptySpace = $(window).height() - contentHeight;
 
@@ -60,7 +60,7 @@ function setSpacerDiv2(){
 }
 
 function setSpacerDiv3(){
-	var contentHeight = 368;
+	var contentHeight = 361;
 
 	var emptySpace = $(window).height() - contentHeight;
 
