@@ -6,11 +6,11 @@ $(document).ready(function(){
 
 	// call helper functions to vertically align content
 	// in each panel
-	// setSpacerDiv1();
+	setSpacerDiv1();
 
-	// setSpacerDiv2();
+	setSpacerDiv2();
 
-	// setSpacerDiv3();
+	setSpacerDiv3();
 
 	// setSpacerDiv4();
 
@@ -22,11 +22,11 @@ $(window).resize(function(){
 
 	// call helper functions to vertically align content
 	// in each panel
-	// setSpacerDiv1();
+	setSpacerDiv1();
 
-	// setSpacerDiv2();
+	setSpacerDiv2();
 
-	// setSpacerDiv3();
+	setSpacerDiv3();
 
 	// setSpacerDiv4();
 
