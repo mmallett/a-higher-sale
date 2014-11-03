@@ -49,10 +49,13 @@
         </div>
         
         <div class="form">
-            <input type="name" placeholder="name"><br>
-            <input type="email" placeholder="email"><br>
-            <input type="phone" placeholder="phone"><br>
-            <div style="margin-left: auto; margin-right: auto; width: 160px"><button id="signup">SIGN UP</button></div>
+        <form id="contact-form">
+            <input type="text" name="name" id="input-name" placeholder="name"><br>
+            <input type="text" name="email" id="input-email" placeholder="email"><br>
+            <input type="text" name="phone" id="input-phone" placeholder="phone"><br>
+            <div style="margin-left: auto; margin-right: auto; width: 160px"><button type="button" id="signup">SIGN UP</button></div>
+            <div id="messagebox" display="none"><img src="images/spinner.gif"></img> Working...</div>
+        </form>
         </div>
     </div>
  <!-- End Panels -->   
@@ -60,7 +63,7 @@
 </div>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/style.js"></script>
-  <!-- <script src="js/submitform.js"></script> -->
-    <script src="js/Placeholders.js"></script>
+  <script src="js/submitform.js"></script>
+    <!-- <script src="js/Placeholders.js"></script> -->
 </body>
 </html>

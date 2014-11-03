@@ -13,6 +13,10 @@ ln -fs /vagrant /var/www
 sudo apt-get install -y git 
 sudo apt-get install -y vim
 
+sudo apt-get install -y libapache2-mod-php5
+sudo apt-get install -y php-pear
+sudo pear install -a mail
+
 
 SCRIPT
 

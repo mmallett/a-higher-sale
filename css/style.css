@@ -259,3 +259,21 @@ button {
 	font-size: 1em;	
 	cursor: pointer;
 }
+
+#messagebox{
+	display: none;
+
+	text-align: center !important;
+	font-family: gotham-htf;
+	font-size: 1.4em;
+
+	padding-top: 20px;
+}
+
+#messagebox img{
+	width: 30px;
+}
+
+#messagebox.error{
+	color: red;
+}
