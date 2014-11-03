@@ -1,39 +1,42 @@
 
-$("#signup").click(submitform);
+var button = $('#signup');
+var messagebox = $('#messagebox');
+
+button.click(submitform);
 
 var defaultText = '<img src="images/spinner.gif"></img> Working...';
 
 function submitform(){
 
-	$('#messagebox').removeClass('error');
+	messagebox.removeClass('error');
 
 	var validationErrors = validate();
 
 	if(!validationErrors){ 
 
-		$('#messagebox').html(defaultText);
-		$('#messagebox').show();
-		$('#signup').prop("disabled", true);
+		messagebox.html(defaultText);
+		messagebox.show();
+		button.prop("disabled", true);
 
 		var data = $('#contact-form').serialize();
 
 		$.post('sendmail.php', data)
 		.done(function(data){
-			$('#messagebox').html(data);
-			$('#signup').prop("disabled", false);
+			messagebox.html(data);
+			button.prop("disabled", false);
 		})
 		.fail(function(jqXHR, textStatus, errorThrown){
-			$('#messagebox').html(jqXHR.responseText);
-			$('#messagebox').addClass('error');
-			$('#signup').prop("disabled", false);
+			messagebox.html(jqXHR.responseText);
+			messagebox.addClass('error');
+			button.prop("disabled", false);
 		});
 
 	}
 	else{
 
-		$('#messagebox').show();
-		$('#messagebox').addClass('error');
-		$('#messagebox').html(validationErrors);
+		messagebox.show();
+		messagebox.addClass('error');
+		messagebox.html(validationErrors);
 
 	}
 

@@ -19,7 +19,7 @@
 	$from = 'noreply.ahighersales@gmail.com';
 	$to = 'phpmailtest@mailinator.com';
 	$subject = "[NOREPLY] New contact " . $name . " from landing page";
-	$body = "Name: " . $name . "    Email: " . $email . "    Phone: " . $phone;
+	$body = "Name: " . $name . "  |  Email: " . $email . "  |  Phone: " . $phone;
 
 	$headers = array(
 	'From' => $from,

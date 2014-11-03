@@ -44,7 +44,7 @@ function setSpacerDiv1(){
 	// 32
 	// 149
 	// 140
-	var contentHeight = 455;
+	var contentHeight = $('#logo').outerHeight(true) + $('#panOneText').outerHeight(true);
 
 	var emptySpace = $(window).height() - contentHeight;
 
@@ -52,7 +52,7 @@ function setSpacerDiv1(){
 }
 
 function setSpacerDiv2(){
-	var contentHeight = 640;
+	var contentHeight = $('#leftColumn').outerHeight(true);
 
 	var emptySpace = $(window).height() - contentHeight;
 
@@ -60,22 +60,11 @@ function setSpacerDiv2(){
 }
 
 function setSpacerDiv3(){
-	var contentHeight = 361;
+	var contentHeight = $('#boxText').outerHeight(true) + $('div.form').outerHeight(true);
 
 	var emptySpace = $(window).height() - contentHeight;
 
 	$("#spacer3").height(emptySpace/2);
 }
 
-function setSpacerDiv4(){
-	// ele heights
-	// 33
-	// 38	
-	// 368
-	var contentHeight = 439;
-
-	var emptySpace = $(window).height() - contentHeight;
-
-	$("#spacer4").height(emptySpace/2);
-}
 
