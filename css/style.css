@@ -80,7 +80,7 @@ Panel 1
 ********************/
 #panel1 {
 	margin: 0 auto;
-	background: /*#09C*/ url(../images/header2.jpg)no-repeat;
+	background: url(../images/header3.jpg)no-repeat;
 	background-size: cover;
 	padding-bottom: 5%
 }
