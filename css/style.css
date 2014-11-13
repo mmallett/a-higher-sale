@@ -83,7 +83,6 @@ Panel 1
 	background: /*#09C*/ url(../images/header2.jpg)no-repeat;
 	background-size: cover;
 	padding-bottom: 5%
-	/*width: 100%;*/
 }
 
 #logo {
@@ -105,16 +104,17 @@ Panel 1
 	color: white;
 	line-height: 35pt;
 	font-size: 1.25em;
-	letter-spacing: 25;
 }
 
 #panOneText h2{
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	letter-spacing: 1pt;
 }
 
 #panOneText p{
-	font-family: gotham-book;	
+	font-family: "gotham-book", Helvetica;	
+	letter-spacing: 1pt;
 }
 
 #navButton1 {
@@ -160,6 +160,7 @@ Panel 2
 	font-size: 1em;
 	line-height: 2em;
 	padding-bottom: 3em;
+	font-family: "gotham-book", Helvetica;
 }
 
 #leftColumn img{
@@ -173,10 +174,10 @@ Panel 2
 }
 
 #rightColumn {
-	float: right;
-	margin-right: 20%;
+	float: left;
+	margin-left: 70px ;
 	margin-top: 10px;
-	width: 23%;
+	width: 400px;
 }
 
 /********************
@@ -213,15 +214,16 @@ Panel 3
 #boxText h2 {
 	font-size: 18pt;
 	font-variant: small-caps;
-	font-family: gotham-bold;
+	font-family: "gotham-bold",Helvetica;
 	color: white;	
 	padding-top: 2%;
+	letter-spacing: 2pt;
 }
 
 #boxText p{
 	font-size: 14pt;
 	font-variant: small-caps;
-	font-family: gotham-book;
+	font-family: "gotham-book", Helvetica;
 	color: white;
 	line-height: ;	
 }

@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	setSpacerDiv3();
 
-	// setSpacerDiv4();
+	setSpacerDiv4();
 
 });
 
@@ -28,7 +28,7 @@ $(window).resize(function(){
 
 	setSpacerDiv3();
 
-	// setSpacerDiv4();
+	setSpacerDiv4();
 
 });
 
@@ -66,5 +66,17 @@ function setSpacerDiv3(){
 
 	$("#spacer3").height(emptySpace/2);
 }
+
+function setSpacerDiv4(){
+	var contentHeight = $('#leftColumn').outerHeight(true);
+
+	var emptySpace = $(window).height() - contentHeight;
+
+	$("#spacer4").height(emptySpace/2);
+}
+
+
+
+
 
 
