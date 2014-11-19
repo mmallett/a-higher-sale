@@ -54,6 +54,10 @@ function setSpacerDiv1(){
 function setSpacerDiv2(){
 	var contentHeight = $('#leftColumn').outerHeight(true);
 
+	var max = Math.max(contentHeight, $(window).height());
+
+	$('#panel2.full-page-panel').height(max);
+
 	var emptySpace = $(window).height() - contentHeight;
 
 	$("#spacer2").height(emptySpace/2);
@@ -70,7 +74,7 @@ function setSpacerDiv3(){
 function setSpacerDiv4(){
 	var contentHeight = $('#rightColumn').outerHeight(true);
 
-	var emptySpace = $(window).height() - contentHeight;
+	var emptySpace = $('#leftColumn').outerHeight(true) - contentHeight;
 
 	$("#spacer4").height(emptySpace/2);
 }

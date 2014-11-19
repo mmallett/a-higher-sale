@@ -113,7 +113,7 @@ Panel 1
 }
 
 #panOneText p{
-	font-family: "gotham-book", Helvetica;	
+	font-family: gotham-book, Helvetica;	
 	letter-spacing: 1pt;
 }
 
@@ -160,7 +160,7 @@ Panel 2
 	font-size: 1em;
 	line-height: 2em;
 	padding-bottom: 3em;
-	font-family: "gotham-book", Helvetica;
+	font-family: gotham-book, Helvetica;
 }
 
 #leftColumn img{
@@ -170,7 +170,7 @@ Panel 2
 
 #panel2 p{
 	color: #022e61;
-	font-family: gotham;
+	font-family: gotham-book;
 }
 
 #rightColumn {
@@ -214,7 +214,7 @@ Panel 3
 #boxText h2 {
 	font-size: 18pt;
 	font-variant: small-caps;
-	font-family: "gotham-bold",Helvetica;
+	font-family: gotham-bold,Helvetica;
 	color: white;	
 	padding-top: 2%;
 	letter-spacing: 2pt;
@@ -223,7 +223,7 @@ Panel 3
 #boxText p{
 	font-size: 14pt;
 	font-variant: small-caps;
-	font-family: "gotham-book", Helvetica;
+	font-family: gotham-book, Helvetica;
 	color: white;
 	line-height: ;	
 }
